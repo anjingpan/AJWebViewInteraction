@@ -63,6 +63,10 @@ extension AJHomeViewController: UITableViewDelegate, UITableViewDataSource {
         switch indexPath {
         case IndexPath(row: 0, section: 0):
             pushVC = AJIntercept_UIViewController()
+        case IndexPath(row: 1, section: 0):
+            pushVC = AJJavaScriptCore_UIViewController()
+        case IndexPath(row: 2, section: 0):
+            pushVC = AJJSExport_UIViewController()
         default:
             break
         }

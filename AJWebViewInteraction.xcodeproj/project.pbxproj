@@ -17,6 +17,8 @@
 		182453AC2407B30400E740E7 /* AJIntercept_UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182453AB2407B30400E740E7 /* AJIntercept_UIViewController.swift */; };
 		182453AE2407B34D00E740E7 /* Login.html in Resources */ = {isa = PBXBuildFile; fileRef = 182453AD2407B34D00E740E7 /* Login.html */; };
 		182453B02407C3AF00E740E7 /* AJJavaScriptCore_UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182453AF2407C3AF00E740E7 /* AJJavaScriptCore_UIViewController.swift */; };
+		184379792410A6F300C7E798 /* AJJSExport_UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184379782410A6F200C7E798 /* AJJSExport_UIViewController.swift */; };
+		1843797B2410A81300C7E798 /* AJJSExportProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843797A2410A81300C7E798 /* AJJSExportProtocal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		182453AB2407B30400E740E7 /* AJIntercept_UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJIntercept_UIViewController.swift; sourceTree = "<group>"; };
 		182453AD2407B34D00E740E7 /* Login.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Login.html; sourceTree = "<group>"; };
 		182453AF2407C3AF00E740E7 /* AJJavaScriptCore_UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJJavaScriptCore_UIViewController.swift; sourceTree = "<group>"; };
+		184379782410A6F200C7E798 /* AJJSExport_UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJJSExport_UIViewController.swift; sourceTree = "<group>"; };
+		1843797A2410A81300C7E798 /* AJJSExportProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJJSExportProtocal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,8 @@
 				182453AD2407B34D00E740E7 /* Login.html */,
 				182453AB2407B30400E740E7 /* AJIntercept_UIViewController.swift */,
 				182453AF2407C3AF00E740E7 /* AJJavaScriptCore_UIViewController.swift */,
+				184379782410A6F200C7E798 /* AJJSExport_UIViewController.swift */,
+				1843797A2410A81300C7E798 /* AJJSExportProtocal.swift */,
 			);
 			path = WebToNative;
 			sourceTree = "<group>";
@@ -284,8 +290,10 @@
 			files = (
 				182453B02407C3AF00E740E7 /* AJJavaScriptCore_UIViewController.swift in Sources */,
 				182453A7240799CB00E740E7 /* AJHomeViewController.swift in Sources */,
+				184379792410A6F300C7E798 /* AJJSExport_UIViewController.swift in Sources */,
 				18245377240797E100E740E7 /* AppDelegate.swift in Sources */,
 				182453AC2407B30400E740E7 /* AJIntercept_UIViewController.swift in Sources */,
+				1843797B2410A81300C7E798 /* AJJSExportProtocal.swift in Sources */,
 				18245379240797E100E740E7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

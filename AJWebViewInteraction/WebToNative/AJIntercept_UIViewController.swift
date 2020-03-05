@@ -16,16 +16,9 @@ class AJIntercept_UIViewController: UIViewController {
         view.addSubview(webView)
     }
     
-
-    lazy var webView: UIWebView = {
-        let webView = UIWebView(frame: self.view.bounds)
-        webView.delegate = self
-        guard let url = Bundle.main.url(forResource: "Login", withExtension: "html") else {
-            return webView
-        }
-        webView.loadRequest(URLRequest(url: url))
-        return webView
-    }()
+    deinit {
+        print("deinit")
+    }
 
     fileprivate func showAlert(title: String? , _ message: String? , confirm: (() -> Void)?) -> Void {
         let alertVC = UIAlertController(title: title, message: message, preferredStyle: .alert)
@@ -36,6 +29,16 @@ class AJIntercept_UIViewController: UIViewController {
         alertVC.addAction(confirmAction)
         present(alertVC, animated: true, completion: nil)
     }
+    
+    lazy var webView: UIWebView = {
+        let webView = UIWebView(frame: self.view.bounds)
+        webView.delegate = self
+        guard let url = Bundle.main.url(forResource: "Login", withExtension: "html") else {
+            return webView
+        }
+        webView.loadRequest(URLRequest(url: url))
+        return webView
+    }()
 }
 
 extension AJIntercept_UIViewController: UIWebViewDelegate {
